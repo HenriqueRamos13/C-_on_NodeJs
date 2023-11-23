@@ -1,0 +1,1 @@
+cmd_Release/fatorial.node := c++ -bundle -undefined dynamic_lookup -Wl,-search_paths_first -mmacosx-version-min=10.15 -arch arm64 -L./Release -stdlib=libc++  -o Release/fatorial.node Release/obj.target/fatorial/src/fatorial.o 
